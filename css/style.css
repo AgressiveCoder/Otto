@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/header\ bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar-brand img{
+    padding: 1rem;
+    width: 170px;
+}
+
+.navbar-nav{
+    color:#fff;
+    background:#081f32d8;
+    border-radius: 0.6875em;
+    padding:0 0.5rem;
+}
+
+.navbar-nav .nav-link{
+    color: #fff !important;
+    font-size: 1.5rem !important;
+}
+
+
+
+.slogan{
+    width: 65%;
+    color:#fff;
+    text-align: center;
+    border-radius: 1.68em;
+    margin-top: 45rem;
+    backdrop-filter: blur(2px);
+    background: #081f3280;
+}
+
+.slogan h2{
+    font-size: 3.125rem;
+    line-height: 4.5rem;
+}
+
+.slogan span{
+    font-size: 2.375rem;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.about h2{
+    font-weight: 700;
+    font-size: 2.9rem;
+    line-height: 4.5rem;
+}
+
+.border{
+    width: 17rem;
+    height:4px;
+    background: #081f3246;
+    border-radius: 1rem;
+}
+
+.about p{
+    font-size: 1.9rem;
+    margin: 2rem 0;
+    line-height: 2.5rem;
+}
+
+.univer{
+    padding:5rem 0;
+}
+
+.univer p{
+    text-align: left;
+}
+
+main{
+    padding:2rem 0;
+}
+
+main img{
+    width: 190px;
+    height: 190px;
+}
+
+main .col-4{
+    margin:1.5em 0;
+}
+
+.btn-modal{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.modal-content{
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(2px);
+}
+
+.modal-header , .modal-footer{
+    border: hidden;
+}
+
+.modal-footer .btn{
+    color: #fff;
+    background:#081f32ef !important;
+}
