@@ -27,22 +27,31 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">О нас</a>
+                    <a class="nav-link lang" key="about" aria-current="page" href="#">О нас</a>
                     <div class="line-left"></div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Университеты</a>
+                    <a class="nav-link lang" key="univer" href="#">Университеты</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Наши студенты</a>
+                    <a class="nav-link lang" key="students" href="#">Наши студенты</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link lang" key="contacts" href="#">Контакты</a>
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <a href="" class="btn me-2 feedback">Оставить заявку</a>
-                  <a href="" class="btn lang">UZ</a>
+                  <a href="https://forms.gle/eJv994CHFAHQbVza7" class="btn me-2 feedback">Оставить заявку</a>
+                  
+                  <div class="dropdown">
+                    <button class="btn language dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Язык
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                      <li><button class="dropdown-item translate" id="ru" type="button">RU</button></li>
+                      <li><button class="dropdown-item translate" id="uz" type="button">UZ</button></li>
+                    </ul>
+                  </div>
                 </form>
               </div>
             </div>
@@ -57,7 +66,7 @@
     </header>
 
     <section class="about">
-        <div class="container-xxl">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-12">
                     <h2>О нас</h2>
@@ -88,7 +97,7 @@
 
 
     <main>
-        <div class="container-xxl">
+        <div class="container-xl">
 
             <div class="row text-center">
 
@@ -96,7 +105,7 @@
                     <img src="img/1.png" alt="" class="img-fluid">
                     <div class="clear"></div>
                     <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#one">
-                        Ankara Yildirim Beyazit <br /> University
+                        Ankara Yildirim <br /> Beyazit University
                     </button>
                       
                       <!-- Modal -->
@@ -108,7 +117,7 @@
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                              <p>Университет Анкары Йилдирим Беязит (Ankara Yildirim Beyazit University), основанный в 2010 году, является некоммерческим государственным высшим учебным заведением, расположенным в большом мегаполисе Анкара (с населением более 5 000 000 жителей). Официально признанный YÖK - Советом высшего образования, Университет Анкары Йилдирим Беязит (AYBU) представляет собой крупное турецкое высшее учебное заведение с совместным обучением. Университет Анкары Йилдирим Беязит (AYBU) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования в нескольких областях обучения.</p>
                             </div>
                             <div class="modal-footer">
                               <a href="" class="btn">Подробнее</a>
@@ -123,7 +132,7 @@
                     <img src="img/2.png" alt="" class="img-fluid">
                     <div class="clear"></div>
                     <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#two">
-                      Bandirma Onyedi Eylul <br /> University
+                      Bandirma Onyedi <br /> Eylul University
                   </button>
                     
                     <!-- Modal -->
@@ -135,7 +144,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                            <p>Bandirma Onyedi Eylül Üniversitesi (Университет Bandirma Onyedi Eylul), основанный в 2015 году, является некоммерческим государственным высшим учебным заведением, расположенным в городе Балыкесир (население 250 000–499 999 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Bandirma Onyedi Eylül Üniversitesi является средним турецким высшим учебным заведением с совместным обучением. Bandirma Onyedi Eylül Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования в нескольких областях обучения.</p>
                           </div>
                           <div class="modal-footer">
                             <a href="" class="btn">Подробнее</a>
@@ -162,7 +171,11 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                            <p>Университет Дюздже - это университет, расположенный в городе Дюздже, Турция. Он был основан в 2006 году, но его старейшее подразделение, профессионально-техническое училище Дюздже, существует с 1976 года. В 2008 году университет присоединился к Национальному движению за качество и получил награду «4 звезды за превосходство» от Турецкой ассоциации качества (KALDER). в рамках EFQM (Европейский фонд управления качеством).
+
+                              В мае 2011 года Университет Дюздже получил награду European Enterprise Award за проект «Вместе мы можем сделать больше», который способствует развитию предпринимательства.
+                              
+                              В январе 2012 года университет стал официальным членом Европейской ассоциации университетов (EUA).</p>
                           </div>
                           <div class="modal-footer">
                             <a href="" class="btn">Подробнее</a>
@@ -180,7 +193,7 @@
                 <img src="img/4.png" alt="" class="img-fluid">
                 <div class="clear"></div>
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#four">
-                  Bolu Izzet Abant Baysal <br /> University
+                  Bolu Izzet Abant <br />  Baysal University
                 </button>
                 
                 <!-- Modal -->
@@ -188,11 +201,14 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Bolu Izzet Abant Baysal University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Bolu Izzet Abant Baysal University - это ГОСУДАРСТВЕННЫЙ университет, расположенный в Болу, Турция.
+
+                          Город Болу находится в 3 часах езды от Стамбула.
+                          Природа региона очень живописна. Созданы все условия для продуктивного времяпрепровождения вместе с обучением в университете. Университет сотрудничает со многими европейскими университетами (ERASMUS vs. EXCHANGE PROGRAM).</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -215,11 +231,11 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Erciyes University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Erciyes Üniversitesi (Университет Эрджиес), основанный в 1978 году, является некоммерческим государственным высшим учебным заведением, расположенным в большом городе Кайсери (население от 500 000 до 1 000 000 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Erciyes Üniversitesi является большим турецким высшим учебным заведением с совместным обучением. Erciyes Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -235,7 +251,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#six">
-                  Erzincan Binali Yıldırım <br /> University
+                  Erzincan Binali <br /> Yıldırım  University
                 </button>
                 
                 <!-- Modal -->
@@ -243,11 +259,16 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Erzincan Binali Yıldırım  Universit</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Erzincan Binali Yıldırım University - это университет в Эрзинджане, Турция, в котором обучается более 25000 студентов. В нем 12 факультетов и 12 средних школ (высшее образование).
+
+                          Он был создан 1 марта 2006 года из ряда существующих школ. Образовательная школа была основана в 1967 году, а юридическая школа - в 1987 году. Университет планирует предложить программу управления кладбищами.
+                          
+                          Он входит в первую тысячу университетов в категории «Мировой рейтинг университетов», который ежегодно определяется US News & World Report в соответствии с различными научными критериями.
+                          </p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -267,7 +288,7 @@
                 <img src="img/7.png" alt="" class="img-fluid">
                 <div class="clear"></div>
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#seven">
-                  Bolu Izzet Abant Baysal <br /> University
+                  Eskisehir Osmangazi <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -275,11 +296,15 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Eskisehir Osmangazi University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Университет Эскишехира Османгази - государственный университет в Эскишехире.
+
+                          Основание Университета Эскишехира Османгази датируется 1970 годом, датой основания факультета медицины, инженерии, архитектуры и науки и литературы, с которого началась университетская жизнь в Эскишехире .
+                          
+                          В составе университета, Школа туризма и гостиничного менеджмента в 2007 г. (преобразованная в Факультет туризма в 2013 г.), Профессиональное училище Махмудие и Государственная консерватория, Факультет Стоматология в 2008 году, искусство и дизайн в 2009 году. Факультет естественных наук, Эскишехирское профессиональное училище и Институт педагогических наук были созданы в 2010 году.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -294,7 +319,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#eight">
-                  Erciyes <br /> University
+                  Gaziantep <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -302,11 +327,11 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Gaziantep University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Gaziantep Üniversitesi (Университет Газиантепа), основанный в 1987 году, представляет собой некоммерческое государственное высшее учебное заведение, расположенное в городских условиях мегаполиса Газиантеп (с населением от 1 000 000 до 5 000 000 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Gaziantep Üniversitesi (GAÜN) является большим турецким высшим учебным заведением с совместным обучением. Gaziantep Üniversitesi (GAÜN) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -322,7 +347,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#nine">
-                  Erzincan Binali Yıldırım <br /> University
+                  Dicle <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -330,11 +355,13 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Dicle University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Университет Дикле государственный университет, расположенный в Диярбакыре , Турция , на восточной стороне реки Тигр. Университет является одним из старейших и крупнейших высших учебных заведений в юго - восточной Анатолии, Турция .
+
+                          Университет Дикле, построенный на территории площадью 27 000 акров в восточной части исторического города Диярбакыр, получил свое название от реки, которая отделяет университет от города. Помимо своего основного кампуса в Диярбакыр, университет имеет профессионально - технических школ в Эграни, Чермик, Чюнгюш, Bismil и Сильван.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -353,7 +380,7 @@
                 <img src="img/10.png" alt="" class="img-fluid">
                 <div class="clear"></div>
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#ten">
-                  Bolu Izzet Abant Baysal <br /> University
+                  Karamanoğlu Mehmetbey <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -361,11 +388,16 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Karamanoğlu Mehmetbey University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Karamanoğlu Mehmetbey University (KMU) - государственное высшее учебное заведение в Турции. KMU был учреждён в 2007 году. Главный корпус учебного заведения располагается в Карамане. Также университет регулярно занимает высокие строчки в рейтинге лучших вузов Турции.
+
+                          Karamanoğlu Mehmetbey University - среднее по размерам учебное заведение, вмещающее не более 7 тысяч учащихся. В вузе преподаёт примерно 199 учителей.
+                          
+                          Учебное заведение располагает собственной библиотекой. В университете присутствует развитая спортивная инфраструктура.
+                          </p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -380,7 +412,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#eleven">
-                  Erciyes <br /> University
+                  Kirshehir Ahi Evran <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -388,11 +420,15 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Kirshehir Ahi Evran University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Kırşehir Ahi Evran University - государственное высшее учебное заведение в Турции. Kırşehir Ahi Evran University был официально учреждён в 2006 году. Учебное заведение находится в пределах небольшого города Турции - Кыршехир.
+
+                          Kırşehir Ahi Evran University - средний по количеству студентов вуз, в котором получают образование не более 15 тыс. студентов. Преподавательский состав примерно 499 академических специалистов.
+                          
+                          Студентам университета также доступна университетская библиотека. Учебное заведение располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -408,7 +444,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#twelve">
-                  Erzincan Binali Yıldırım <br /> University
+                  Mersin <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -416,11 +452,11 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Mersin University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Mersin Üniversitesi (Университет Мерсина), основанное в 1992 году, является некоммерческим государственным высшим учебным заведением, расположенным в небольшом городе Енишехир (с населением от 50 000 до 249 999 жителей), Мерсин. Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Mersin Üniversitesi является крупным турецким высшим учебным заведением с совместным обучением. Mersin Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -438,7 +474,7 @@
                 <img src="img/13.png" alt="" class="img-fluid">
                 <div class="clear"></div>
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#thirteen">
-                  Bolu Izzet Abant Baysal <br /> University
+                  Necmettin Erbakan <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -446,11 +482,13 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Necmettin Erbakan University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Necmettin Erbakan University (NEU) - государственное высшее учебное заведение в Турции. NEU начинает свою историю с 2010 года. Главное здание вуза располагается в Коньях.
+
+                          В период своего обучения в университете студенты могут пользоваться студенческой библиотекой. На территории кампуса университет дополнительно располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -465,7 +503,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#fourteen">
-                  Erciyes <br /> University
+                  Sakarya <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -473,11 +511,11 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel"> Sakarya University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Sakarya Üniversitesi (Университет Сакарья), основанное в 1992 году, является некоммерческим государственным высшим учебным заведением, расположенным в городских условиях среднего города Сакарья (население 250 000–499 999 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Sakarya Üniversitesi (SAÜ) является большим турецким высшим учебным заведением с совместным обучением. Sakarya Üniversitesi (SAÜ) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степени предварительного бакалавра (т.е. сертификаты, дипломы, ассоциированные или фундаментальные), степени бакалавра, магистра, доктора в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -493,7 +531,7 @@
                 <div class="clear"></div>
 
                 <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#fifteen">
-                  Erzincan Binali Yıldırım <br /> University
+                  Sivas Cumhuriyet <br /> University
                 </button>
                 
                 <!-- Modal -->
@@ -501,11 +539,15 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Duzce  University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Sivas Cumhuriyet University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Университет Сиваса Джумхуриета - государственный университет, основанный в провинции Сивас в Турции в 1973 году к 50-летию Турецкой Республики. Главный кампус университета расположен в 5 км от центра города Сивас , на территории 1100 га у реки Кызылырмак. Кампус является пятым по величине университетским городком в Турции.
+
+                          Университет предлагает лекции, образовательные возможности, культурные и спортивные мероприятия для более чем 50 000 студентов, аспирантов и докторантов, 2435 преподавателей, культурные и спортивные объекты и библиотеки.
+                          
+                          В университете используется как шкала оценок от 0 до 100, так и относительная шкала оценок.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -535,11 +577,15 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Yalova <br /> University</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Yalova University</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium maiores nostrum suscipit sequi fuga impedit eum, unde, libero quas facere laudantium ex molestiae odit sint voluptas cupiditate repudiandae sit ipsa?</p>
+                        <p>Yalova University - государственное высшее учебное заведение в Турции. Yalova University начинает свою историю с 2008 года. Университет находится в пределах Cinarcik - небольшого города Турции.
+
+                          Yalova University - небольшое учебное заведение, на территории которого одновременно обучается около 3000 студентов. Преподавательский состав Yalova University включает примерно 199 академич. специалистов.
+                          
+                          В период своего обучения в университете студенты могут пользоваться студенческой библиотекой. На территории кампуса университет дополнительно располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
                         <a href="" class="btn">Подробнее</a>
@@ -625,9 +671,9 @@
             <a href="" class="mail">ottostudy1@gmail.com</a>
 
             <div class="soc-group mx-auto">
-              <a class="mx-auto" href=""><i class="fab fa-facebook-square"></i></a>
-              <a class="mx-auto" href=""><i class="fab fa-instagram"></i></a>
-              <a class="mx-auto" href=""><i class="fab fa-telegram-plane"></i></a>
+              <a class="mx-auto" href="https://www.facebook.com/ottostudy"><i class="fab fa-facebook-square"></i></a>
+              <a class="mx-auto" href="https://www.instagram.com/ottostudy/"><i class="fab fa-instagram"></i></a>
+              <a class="mx-auto" href="https://t.me/otto_study"><i class="fab fa-telegram-plane"></i></a>
             </div>
             <div class="clear"></div>
 
@@ -646,17 +692,7 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
