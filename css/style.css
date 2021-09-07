@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    transition: all linear 0.3s;
 }
 
 .clear{
@@ -39,17 +40,19 @@ header{
     color:rgb(235, 235, 235);
     padding: 0.7rem 0.5rem;
     font-size: 1.4rem;
+    border-radius: 0.8rem;
 }
 
 .feedback:hover{
     color: #fff;
 }
 
-.lang{
+.language{
     padding: 0.7rem;
     background: #081F32;
     color:rgb(235, 235, 235);
     font-size: 1.4rem;
+    border-radius: 0.8rem;
 }
 
 .lang:hover{
@@ -290,3 +293,155 @@ main .col-12 .border{
     font-size: 1.4rem !important;
   }
 
+  @media (min-width: 1200px){
+    .navbar-brand img {
+        padding: 1rem;
+        width: 130px;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        font-size: 1.2rem !important;
+    }
+
+    .feedback {
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .language{
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .slogan{
+        width: 60%;
+        margin:22rem 0 3rem 0;
+        padding: 0 0  1rem 0;
+    }
+
+    .slogan h2 {
+        font-size: 2rem;
+        
+    }
+
+    .slogan span {
+        font-size: 1.6rem;
+    }
+
+    .about h2 {
+        font-size: 2.3rem;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+    }
+
+    main img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .btn-modal {
+        font-size: 1.35rem;
+    }
+
+    footer .img-logo {
+        width: 14rem;
+    }
+  }
+
+  @media (min-width: 1400px){
+    .navbar-brand img {
+        padding: 1rem;
+        width: 200px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.5rem !important;
+    }
+
+    .feedback{
+        font-size: 1.4rem;
+        height: auto;
+    }
+
+    .language{
+        height: auto;
+        font-size: 1.4rem;
+
+    }
+    .slogan{
+        width: 65%;
+        color:#fff;
+        text-align: center;
+        border-radius: 1.68em;
+        margin: 35rem 0 4rem 0;
+        backdrop-filter: blur(1px);
+        background: #081f32d1;
+    }
+    
+    .slogan h2{
+        font-size: 2.5rem;
+        line-height: 4.5rem;
+    }
+    
+    .slogan span{
+        font-size: 2rem;
+    }
+    
+
+    .about h2 {
+        font-size: 2.3rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+
+    main img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .btn-modal {
+        font-size: 1.5rem;
+    }
+
+    .students h2 {
+        font-size: 2.3rem;
+    }
+
+    .student-card img.img-fluid {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .student-card p {
+        font-size: 1.4rem;
+    }
+
+    .student-card .name {
+        font-size: 1.5rem;
+    }
+
+    footer .mail {
+        font-size: 1.4rem;
+    }
+
+    footer .img-logo {
+        width: 15rem;
+    }
+
+    .tel-group {
+        width: 80%;
+    }
+
+    .tel-group span {
+        font-size: 1.35rem;
+    }
+
+    .address {
+        font-size: 1.35rem;
+    }
+  }
