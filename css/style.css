@@ -355,6 +355,109 @@ main .col-12 .border{
     font-size: 1.4rem !important;
   }
 
+  @media (max-width: 576px){
+    .slogan {
+        width: 90%;
+        margin: 10rem 0 4rem 0;
+    }
+
+    .slogan h2 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .slogan span {
+        font-size: 1.2rem;
+    }
+
+    .about {
+        padding: 2rem 0;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .about h2 {
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 4.5rem;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+        margin: 2rem 0;
+        line-height: 2.5rem;
+    }
+
+    form.d-flex{
+        margin:0.7rem 0 0 0;
+        justify-content: center;
+    }
+
+    main img {
+        width: 160px;
+        height: 160px;
+    }
+
+    main img[src="img/14.png"] {
+        width: 90px;
+    }
+
+    .univer {
+        padding: 2rem 0;
+        overflow: hidden;
+    }
+
+    .btn-modal {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .students h2{
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .student-card {
+        width: 85%;
+        margin: 0.3rem auto;
+    }
+
+    .soc-group {
+        width: 65%;
+        height: auto;
+        padding: 0.5rem 0;
+    }
+
+    .tel-group {
+        margin: 1rem 0;
+        width: 80%;
+    }
+
+    .tel-group span {
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 0.1rem 0;
+    }
+
+    .address {
+        color: #081F32;
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    .fa-facebook-square {
+        color: #3B5999;
+        border-radius: 10px;
+        font-size: 2.4rem !important;
+    }
+
+    main .col-12 .border {
+        margin: 0.5rem 0;
+    }
+
+
+  }
+
   @media (min-width: 576px){
 
 
@@ -380,8 +483,6 @@ main .col-12 .border{
         width: 85%;
         margin: 17rem 0 4rem 0;
     }
-
-
 
     form.d-flex{
         margin:0.7rem 0 0 0;
