@@ -113,20 +113,21 @@ header{
 }
 
 .slogan{
-    width: 65%;
     color:#fff;
-    text-align: center;
+    text-align: left;
     border-radius: 1.68em;
     margin: 35rem 0 4rem 0;
-    background: #081f32d1;
+    background: #081f327a;
 }
 
 .slogan h2{
+    margin-left: 1.2rem;
     font-size: 2.5rem;
     line-height: 4.5rem;
 }
 
 .slogan span{
+    margin-left: 1.2rem;
     font-size: 2rem;
 }
 
@@ -162,6 +163,10 @@ header{
     overflow: hidden;
 }
 
+.univer img{
+    margin: 1rem 0 0 0;
+}
+
 .univer p{
     text-align: left;
 }
@@ -176,10 +181,6 @@ main img{
     height: 190px;
 }
 
-main img[src="img/14.png"]{
-    width: 150px;
-}
-
 main .col-4{
     margin:1.5em 0;
 }
@@ -191,7 +192,6 @@ main .col-4{
 
 .modal-content{
     background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(2px);
 }
 
 .modal-header , .modal-footer{
@@ -241,7 +241,8 @@ main .col-12 .border{
   .students h2{
       font-size: 2rem;
       font-weight: bold;
-      margin: 0.7rem 1rem;
+      margin: 1rem 0;
+      text-align: center;
   }
 
   .student-card{
@@ -356,6 +357,13 @@ main .col-12 .border{
   }
 
   @media (max-width: 576px){
+
+    .navbar-brand img {
+        padding: 1rem;
+        width: 170px;
+        transform: translateX(65%);
+    }
+
     .slogan {
         width: 90%;
         margin: 10rem 0 4rem 0;
@@ -398,10 +406,6 @@ main .col-12 .border{
         height: 160px;
     }
 
-    main img[src="img/14.png"] {
-        width: 90px;
-    }
-
     .univer {
         padding: 2rem 0;
         overflow: hidden;
@@ -414,7 +418,7 @@ main .col-12 .border{
 
     .students h2{
         text-align: center;
-        margin: 0.5rem 0;
+        margin: 0 0 2.5rem 0;
     }
 
     .student-card {
@@ -445,10 +449,23 @@ main .col-12 .border{
         font-size: 1.2rem;
     }
 
+    .univer .col-sm-6{
+        width: 100%;
+    } 
+
     .fa-facebook-square {
         color: #3B5999;
         border-radius: 10px;
         font-size: 2.4rem !important;
+    }
+
+    .quote {
+        width: 1.5rem;
+        position: relative;
+        left: -7.5em;
+        top: -0.5rem;
+        opacity: 70%;
+        color: #081F32;
     }
 
     main .col-12 .border {
@@ -476,12 +493,13 @@ main .col-12 .border{
         color: #fff;
         background: #081f32d8;
         border-radius: 0.6875em;
-        padding: 0.5rem 1.2rem;
+        padding: 0.5rem 1.5rem;
     }
 
     .slogan {
-        width: 85%;
+        width: 90%;
         margin: 17rem 0 4rem 0;
+        padding: 0 0 0.6rem 0;
     }
 
     form.d-flex{
@@ -493,10 +511,6 @@ main .col-12 .border{
         width: 160px;
         height: 160px;
     }
-
-    main img[src="img/14.png"] {
-        width: 135px;
-    }
         
 
     .btn-modal {
@@ -505,12 +519,44 @@ main .col-12 .border{
     }
 
     .slogan h2 {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
          line-height: 3.5rem;
     }
 
     .slogan span {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+        margin: 1.5rem 1rem;
+        line-height: 2.5rem;
+    }
+
+    .univer .col-sm-6{
+        width: 100%;
+    } 
+
+    .univer img{
+        width: 75%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .quote {
+        width: 1.5rem;
+        position: relative;
+        left: -5.5em;
+        top: -0.5rem;
+        opacity: 70%;
+        color: #081F32;
+    }
+
+    .students h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 2.5rem 0;
+        text-align: center;
     }
 
     .student-card {
@@ -518,7 +564,20 @@ main .col-12 .border{
     }
 
     .tel-group {
+        margin: 1rem 0;
+        width: 80%;
+    }
+
+    .tel-group span {
         width: 100%;
+        font-size: 1.2rem;
+        margin: 0.1rem 0;
+    }
+
+    .address {
+        color: #081F32;
+        margin: 1rem 0;
+        font-size: 1.2rem;
     }
 
     .fa-facebook-square {
@@ -536,8 +595,10 @@ main .col-12 .border{
     }
 
     .navbar-nav {
+        transform: translate(1rem);
         padding: 0.19rem 0.5rem;
     }
+    
 
     .navbar-brand img {
         padding: 1rem;
@@ -556,9 +617,10 @@ main .col-12 .border{
         font-size: 1.2em;
     }
 
-    .slogan{
+    .slogan {
         width: 70%;
         margin: 15rem 0 4rem 0;
+        padding: 0.2rem 0 0.6rem 0;
     }
 
     .slogan h2 {
@@ -569,6 +631,10 @@ main .col-12 .border{
         font-size: 1.8rem;
     }
 
+    .univer .col-sm-6{
+        width: 50%;
+    } 
+
     .about h2 {
         font-weight: 700;
         font-size: 2.3rem;
@@ -576,7 +642,11 @@ main .col-12 .border{
     }
 
     .about p {
-        margin: 1rem 0;
+        margin: 1rem 0.7rem;
+    }
+
+    .univer img {
+        margin: 7rem 0 0 0;
     }
 
     main img {
@@ -593,6 +663,12 @@ main .col-12 .border{
         left: -7em;
         top: -0.5rem;
     }
+
+    form.d-flex {
+        margin: 0;
+        justify-content: center;
+    }
+
     .tel-group {
         width: 90%;
     }
@@ -610,8 +686,12 @@ main .col-12 .border{
   @media (min-width: 1200px){
     .navbar-brand img {
         padding: 1rem;
-        width: 150px;
+        width: 170px;
         transform: none;
+    }
+
+    .navbar-nav{
+        transform: translate(3rem);
     }
 
     .navbar-nav .nav-link {
@@ -631,16 +711,15 @@ main .col-12 .border{
     .slogan{
         width: 60%;
         margin:22rem 0 3rem 0;
-        padding: 0 0  1rem 0;
+        padding: 0.5rem 0 1rem 0;
     }
 
     .slogan h2 {
-        font-size: 2rem;
-        
+        font-size: 2.1rem;
     }
 
     .slogan span {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
 
     .about h2 {
@@ -651,13 +730,18 @@ main .col-12 .border{
         font-size: 1.1rem;
     }
 
+    .univer .col-sm-6{
+        width: 50%;
+    } 
+
+    .univer img{
+        width: 100%;
+        margin: 2.5rem 0 0 0;
+    }
+
     main img {
         width: 160px;
         height: 160px;
-    }
-
-    main img[src="img/14.png"]{
-        width: 140px;
     }
 
     .btn-modal {
@@ -669,6 +753,28 @@ main .col-12 .border{
         top: -0.5rem;
     }
 
+    .tel-group {
+        width: 79%;
+    }
+
+    .tel-group span {
+        width: 30%;
+        font-size: 1.4rem;
+    }
+
+    footer .mail {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 1rem 0;
+        color: #081F32;
+        line-height: 3rem;
+        text-decoration: none;
+    }
+
+    .address {
+        font-size: 1.4rem;
+    }
+
     footer .img-logo {
         width: 16rem;
     }
@@ -678,6 +784,10 @@ main .col-12 .border{
     .navbar-brand img {
         padding: 1rem;
         width: 200px;
+    }
+
+    .navbar-nav{
+        transform: translate(2rem);
     }
 
     .navbar-nav .nav-link {
@@ -694,23 +804,19 @@ main .col-12 .border{
         font-size: 1.4rem;
 
     }
-    .slogan{
+    .slogan {
         width: 65%;
-        color:#fff;
-        text-align: center;
-        border-radius: 1.68em;
+        color: #fff;
         margin: 35rem 0 4rem 0;
-        backdrop-filter: blur(1px);
-        background: #081f32d1;
     }
     
     .slogan h2{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         line-height: 4.5rem;
     }
     
-    .slogan span{
-        font-size: 2rem;
+    .slogan span {
+        font-size: 2.3rem;
     }
     
 
@@ -727,8 +833,8 @@ main .col-12 .border{
         height: 180px;
     }
 
-    main img[src="img/14.png"]{
-        width: 150px;
+    .univer img{
+        margin: 2rem 0 0 0;
     }
 
     .btn-modal {
@@ -765,10 +871,16 @@ main .col-12 .border{
     }
 
     .tel-group span {
+        width: 30%;
         font-size: 1.35rem;
     }
 
     .address {
         font-size: 1.35rem;
+    }
+
+    .quote {
+        left: -10em;
+        top: -0.5rem;
     }
   }
