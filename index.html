@@ -29,17 +29,17 @@
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link lang" key="about" aria-current="page" href="#">О нас</a>
+                    <a class="nav-link lang" key="about" aria-current="page" href="#about">О нас</a>
                     <div class="line-left"></div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link lang" key="univer" href="#">Университеты</a>
+                    <a class="nav-link lang" key="univer" href="#univer">Университеты</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link lang" key="students" href="#">Наши студенты</a>
+                    <a class="nav-link lang" key="students" href="#students">Наши студенты</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link lang" key="contacts" href="#">Контакты</a>
+                    <a class="nav-link lang" key="contacts" href="#footer">Контакты</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -67,7 +67,7 @@
 
     </header>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container-xl">
             <div class="row">
                 <div class="col-12">
@@ -80,10 +80,10 @@
                     <div class="border mx-auto"></div>
             </div>
 
-            <div class="row univer">
+            <div id="univer" class="row univer">
                 <div class="col-sm-6">
                     <h2 class="lang" key="univer">Университеты</h2>
-                    <p class="lang" key="univer-p">Вопреки статусу туристической страны, Турция предлагает широкий спектр высших учебных заведений.</p>
+                    <p class="lang" key="univer-p">Вопреки статусу туристической страны, Турция предлагает широкий спектр высших учебных заведений. В стране находится более 150 университетов, приблизительно треть из них — частные, остальные относятся к государственным университетам Турции. Все вузы предоставляют качественные услуги в сфере образования, отвечающие мировым стандартам.</p>
                 </div>
                 <div class="col-sm-6">
                     <img src="img/turkiye.png" alt="" class="img-fluid mx-auto" />
@@ -468,7 +468,7 @@
                 </div>
 
               </div>
-
+            </div>
             <!-- 5 столб-->
             <div class="row text-center">
 
@@ -636,13 +636,12 @@
                 <div class="border mx-auto"></div>
               </div>
             </div>
-    
-            </div>                  
+                      
 
         </div>
     </main>
 
-    <section class="students">
+    <section id="students" class="students">
       <div class="container-xxl">
         <div class="row">
           <h2 class="lang" key="students">Наши студенты</h2>
@@ -703,7 +702,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="footer">
       <div class="container-xxl">
         <div class="row">
           <div class="col-2"></div>
@@ -711,7 +710,7 @@
 
             <img src="img/otto logo.png" alt="" class="img-fluid mx-auto img-logo" />
             <div class="clear"></div>
-            <a href="" class="mail">ottostudy1@gmail.com</a>
+            <a target="_blank" href="mailto:ottostudy1@gmail.com" class="mail">ottostudy1@gmail.com</a>
 
             <div class="soc-group mx-auto">
               <a target="_blank" class="mx-auto" href="https://www.facebook.com/ottostudy"><i class="fab fa-facebook-square"></i></a>
