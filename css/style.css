@@ -367,11 +367,14 @@ main .col-12 .border{
     .slogan {
         width: 90%;
         margin: 10rem 0 4rem 0;
+        padding: 0.01rem;
     }
 
     .slogan h2 {
         font-size: 1.5rem;
-        line-height: 2.5rem;
+        line-height: 1.7rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.1rem;
     }
 
     .slogan span {
@@ -379,7 +382,7 @@ main .col-12 .border{
     }
 
     .about {
-        padding: 2rem 0;
+        padding: 2rem 1rem;
         text-align: center;
         overflow: hidden;
     }
@@ -399,6 +402,11 @@ main .col-12 .border{
     form.d-flex{
         margin:0.7rem 0 0 0;
         justify-content: center;
+    }
+
+    main {
+        padding: 2rem 1rem;
+        overflow: hidden;
     }
 
     main img {
@@ -625,15 +633,25 @@ main .col-12 .border{
 
     .slogan h2 {
         font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 0.7rem;
     }
 
     .slogan span {
         font-size: 1.8rem;
     }
 
+    .univer {
+        padding: 2rem 0;
+    }
+
     .univer .col-sm-6{
         width: 50%;
     } 
+
+    .about {
+        padding: 1rem 0;
+    }
 
     .about h2 {
         font-weight: 700;
@@ -642,10 +660,11 @@ main .col-12 .border{
     }
 
     .about p {
-        margin: 1rem 0.7rem;
+        margin: 1rem 2rem;
     }
 
     .univer img {
+        width: 100%;
         margin: 7rem 0 0 0;
     }
 
@@ -716,10 +735,16 @@ main .col-12 .border{
 
     .slogan h2 {
         font-size: 2.1rem;
+        line-height: 2rem;
+        margin-top: 0.8rem;
     }
 
     .slogan span {
         font-size: 1.9rem;
+    }
+
+    .about {
+        padding: 1rem 0;
     }
 
     .about h2 {
@@ -728,6 +753,11 @@ main .col-12 .border{
 
     .about p {
         font-size: 1.1rem;
+    }
+
+    .univer {
+        padding: 5rem 0 1rem 0;
+        overflow: hidden;
     }
 
     .univer .col-sm-6{
@@ -754,11 +784,12 @@ main .col-12 .border{
     }
 
     .tel-group {
-        width: 79%;
+        margin: 1rem 0;
+        width: 80%;
     }
 
     .tel-group span {
-        width: 30%;
+        width: 100%;
         font-size: 1.4rem;
     }
 
@@ -781,13 +812,18 @@ main .col-12 .border{
   }
 
   @media (min-width: 1400px){
+    header{
+        height: 100vh;
+    }
+
+
     .navbar-brand img {
         padding: 1rem;
         width: 200px;
     }
 
-    .navbar-nav{
-        transform: translate(2rem);
+    .navbar-nav {
+        transform: translate(4rem);
     }
 
     .navbar-nav .nav-link {
@@ -810,9 +846,10 @@ main .col-12 .border{
         margin: 35rem 0 4rem 0;
     }
     
-    .slogan h2{
+    .slogan h2 {
         font-size: 2.8rem;
-        line-height: 4.5rem;
+        line-height: 2rem;
+        margin-top: 0.8rem;
     }
     
     .slogan span {
@@ -828,9 +865,18 @@ main .col-12 .border{
         font-size: 1.2rem;
     }
 
+    .about p:nth-child(1){
+        padding: 0 2rem;
+    }
+
     main img {
         width: 180px;
         height: 180px;
+    }
+
+    .univer {
+        padding: 5rem 0 1rem 0;
+        overflow: hidden;
     }
 
     .univer img{
@@ -867,12 +913,14 @@ main .col-12 .border{
     }
 
     .tel-group {
+        margin: 1rem 0;
         width: 80%;
     }
 
     .tel-group span {
-        width: 30%;
-        font-size: 1.35rem;
+        width: 100%;
+        font-size: 1.4rem;
+        margin: 0.1rem 0;
     }
 
     .address {
