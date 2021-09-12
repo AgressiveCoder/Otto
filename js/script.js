@@ -1,14 +1,43 @@
+var preloader        = $('.preloader');
+var dBody            = $('body');
+var Images_count     = $('img').length;
+var percent          = 100 / Images_count;
+var progress         = 0;
+var loaded_img       = 0;
 
 
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
+if(Images_count > 0){
 
+    preloader.css({'background':''});
+
+    $(window).on('load', function () {
+        $preloader = $('.preloader'),
+        $loader = $preloader.find('.loader');
+        $loader.fadeOut();
+        $preloader.delay(percent).fadeOut('slow');
+    });
+
+
+    for(var i = 0 ; i < Images_count; i++){
+        var img_copy    = new Image();
+        img_copy.src    = document.images[i].src;
+        img_copy.onload = img_load;
+        img_copy.onerror = img_load;
+    }
+
+    function img_load() {
+        progress += percent;
+        loaded_img++;
+
+        if(progress >+ 100 || loaded_img == Images_count){
+           preloader.delay(400).fadeOut('slow');
+        }
+        preloader.delay(progress).fadeOut('slow');
+    }
+
+}
+
+new WOW().init();
 
       var arrLang = {
         'uz' : {
