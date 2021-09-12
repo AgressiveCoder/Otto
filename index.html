@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,8 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+  <div class="preloader">
+    <img src="img/preloader.gif" alt="">
+
+</div>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark wow fadeInDown">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="img/otto logo.png" alt="">
@@ -58,7 +63,7 @@
               </div>
             </div>
           </nav>
-          <div class="slogan mx-auto">
+          <div class="slogan wow fadeInDownBig mx-auto">
             <h2 class="lang" key="slogan-h2">Хотите получить диплом мирового уровня?</h2>
             <span class="lang" key="slogan-span">Команда OTTO STUDY поможет Вам!</span>
           </div>
@@ -70,10 +75,10 @@
     <section id="about" class="about">
         <div class="container-xl">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow slideInUp">
                     <h2 class="lang" key="about">О нас</h2>
                     <div class="border mx-auto"></div>
-                    <p class="lang" key="about-p"> OTTO STUDY - компания, специализирующаяся в сфере получения образования за границей, вот уже не первый год успешно помогает клиентам поступить в лучшие ВУЗы Турции,
+                    <p class="lang first-child" key="about-p"> OTTO STUDY - компания, специализирующаяся в сфере получения образования за границей, вот уже не первый год успешно помогает клиентам поступить в лучшие ВУЗы Турции,
                         БЕЗ КАКИХ-ЛИБО ЭКЗАМЕНОВ. 
                         Выбирая нас, Вы обеспечиваете себе гарантированное поступление и своё светлое будущее.</p>
                 </div>
@@ -82,11 +87,11 @@
 
             <div id="univer" class="row univer">
                 <div class="col-sm-6">
-                    <h2 class="lang" key="univer">Университеты</h2>
-                    <p class="lang" key="univer-p">Вопреки статусу туристической страны, Турция предлагает широкий спектр высших учебных заведений. В стране находится более 150 университетов, приблизительно треть из них — частные, остальные относятся к государственным университетам Турции. Все вузы предоставляют качественные услуги в сфере образования, отвечающие мировым стандартам.</p>
+                    <h2 class="lang wow fadeInLeft" key="univer">Университеты</h2>
+                    <p class="lang wow fadeInLeft" key="univer-p">Вопреки статусу туристической страны, Турция предлагает широкий спектр высших учебных заведений. В стране находится более 150 университетов, приблизительно треть из них — частные, остальные относятся к государственным университетам Турции. Все вузы предоставляют качественные услуги в сфере образования, отвечающие мировым стандартам.</p>
                 </div>
                 <div class="col-sm-6">
-                    <img src="img/turkiye.png" alt="" class="img-fluid mx-auto" />
+                    <img src="img/turkiye.png" alt="" class="img-fluid mx-auto wow fadeInRight" />
                 </div>
             </div>
             <div class="row">
@@ -98,7 +103,7 @@
     </section>
 
 
-    <main>
+    <main class="wow fadeInUp">
         <div class="container-xl">
 
             <div class="row text-center">
@@ -106,7 +111,7 @@
                 <div class="col-4">
                     <img src="img/1.png" alt="" class="img-fluid">
                     <div class="clear"></div>
-                    <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#one">
+                    <button type="button" class="btn btn-modal slower" data-bs-toggle="modal" data-bs-target="#one">
                         Ankara Yildirim <br /> Beyazit University
                     </button>
                       
@@ -122,7 +127,7 @@
                               <p class="lang" key="one">Университет Анкары Йилдирим Беязит (Ankara Yildirim Beyazit University), основанный в 2010 году, является некоммерческим государственным высшим учебным заведением, расположенным в большом мегаполисе Анкара (с населением более 5 000 000 жителей). Официально признанный YÖK - Советом высшего образования, Университет Анкары Йилдирим Беязит (AYBU) представляет собой крупное турецкое высшее учебное заведение с совместным обучением. Университет Анкары Йилдирим Беязит (AYBU) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования в нескольких областях обучения.</p>
                             </div>
                             <div class="modal-footer">
-                              <a href="" class="btn lang" key="more">Подробнее</a>
+                              <a target="_blank" href="https://aybu.edu.tr/" class="btn lang" key="more">Подробнее</a>
                             </div>
                           </div>
                         </div>
@@ -149,7 +154,7 @@
                             <p  class="lang" key="two">Bandirma Onyedi Eylül Üniversitesi (Университет Bandirma Onyedi Eylul), основанный в 2015 году, является некоммерческим государственным высшим учебным заведением, расположенным в городе Балыкесир (население 250 000–499 999 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Bandirma Onyedi Eylül Üniversitesi является средним турецким высшим учебным заведением с совместным обучением. Bandirma Onyedi Eylül Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования в нескольких областях обучения.</p>
                           </div>
                           <div class="modal-footer">
-                            <a href="" class="btn lang" key="more">Подробнее</a>
+                            <a target="_blank" href="https://www.bandirma.edu.tr/" class="btn lang" key="more">Подробнее</a>
                           </div>
                         </div>
                       </div>
@@ -180,7 +185,7 @@
                               В январе 2012 года университет стал официальным членом Европейской ассоциации университетов (EUA).</p>
                           </div>
                           <div class="modal-footer">
-                            <a href="" class="btn lang" key="more">Подробнее</a>
+                            <a target="_blank" href="https://duzce.edu.tr/" class="btn lang" key="more">Подробнее</a>
                           </div>
                         </div>
                       </div>
@@ -213,7 +218,7 @@
                           Природа региона очень живописна. Созданы все условия для продуктивного времяпрепровождения вместе с обучением в университете. Университет сотрудничает со многими европейскими университетами (ERASMUS vs. EXCHANGE PROGRAM).</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="http://www.ibu.edu.tr/en" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -240,7 +245,7 @@
                         <p class="lang" key="five">Erciyes Üniversitesi (Университет Эрджиес), основанный в 1978 году, является некоммерческим государственным высшим учебным заведением, расположенным в большом городе Кайсери (население от 500 000 до 1 000 000 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Erciyes Üniversitesi является большим турецким высшим учебным заведением с совместным обучением. Erciyes Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.erciyes.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -273,7 +278,7 @@
                           </p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://ebyu.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -309,7 +314,7 @@
                           В составе университета, Школа туризма и гостиничного менеджмента в 2007 г. (преобразованная в Факультет туризма в 2013 г.), Профессиональное училище Махмудие и Государственная консерватория, Факультет Стоматология в 2008 году, искусство и дизайн в 2009 году. Факультет естественных наук, Эскишехирское профессиональное училище и Институт педагогических наук были созданы в 2010 году.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.ogu.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -336,7 +341,7 @@
                         <p class="lang" key="eight">Gaziantep Üniversitesi (Университет Газиантепа), основанный в 1987 году, представляет собой некоммерческое государственное высшее учебное заведение, расположенное в городских условиях мегаполиса Газиантеп (с населением от 1 000 000 до 5 000 000 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Gaziantep Üniversitesi (GAÜN) является большим турецким высшим учебным заведением с совместным обучением. Gaziantep Üniversitesi (GAÜN) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.gantep.edu.tr/en/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -366,7 +371,7 @@
                           Университет Дикле, построенный на территории площадью 27 000 акров в восточной части исторического города Диярбакыр, получил свое название от реки, которая отделяет университет от города. Помимо своего основного кампуса в Диярбакыр, университет имеет профессионально - технических школ в Эграни, Чермик, Чюнгюш, Bismil и Сильван.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.dicle.edu.tr/en/index" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -402,7 +407,7 @@
                           </p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.kmu.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -433,7 +438,7 @@
                           Студентам университета также доступна университетская библиотека. Учебное заведение располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.ahievran.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -461,7 +466,7 @@
                         <p class="lang" key="twelve">Mersin Üniversitesi (Университет Мерсина), основанное в 1992 году, является некоммерческим государственным высшим учебным заведением, расположенным в небольшом городе Енишехир (с населением от 50 000 до 249 999 жителей), Мерсин. Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Mersin Üniversitesi является крупным турецким высшим учебным заведением с совместным обучением. Mersin Üniversitesi предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степень бакалавра в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="http://www.mersin.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -493,7 +498,7 @@
                           В период своего обучения в университете студенты могут пользоваться студенческой библиотекой. На территории кампуса университет дополнительно располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.erbakan.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -520,7 +525,7 @@
                         <p class="lang" key="fourteen">Sakarya Üniversitesi (Университет Сакарья), основанное в 1992 году, является некоммерческим государственным высшим учебным заведением, расположенным в городских условиях среднего города Сакарья (население 250 000–499 999 жителей). Официально признанный YÖK - Yüksekögretim Kurulu (YÖK - Совет высшего образования), Sakarya Üniversitesi (SAÜ) является большим турецким высшим учебным заведением с совместным обучением. Sakarya Üniversitesi (SAÜ) предлагает курсы и программы, ведущие к официально признанным степеням высшего образования, таким как степени предварительного бакалавра (т.е. сертификаты, дипломы, ассоциированные или фундаментальные), степени бакалавра, магистра, доктора в нескольких областях обучения.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://sakarya.edu.tr/en/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -552,7 +557,7 @@
                           В университете используется как шкала оценок от 0 до 100, так и относительная шкала оценок.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.cumhuriyet.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -590,7 +595,7 @@
                           В период своего обучения в университете студенты могут пользоваться студенческой библиотекой. На территории кампуса университет дополнительно располагает собственными спортивными сооружениями.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.yalova.edu.tr/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -622,7 +627,7 @@
                           Студентам университета также доступна университетская библиотека. Студенты университета могут претендовать на место в студенческом общежитии.</p>
                       </div>
                       <div class="modal-footer">
-                        <a href="" class="btn lang" key="more">Подробнее</a>
+                        <a target="_blank" href="https://www.karabuk.edu.tr/en/" class="btn lang" key="more">Подробнее</a>
                       </div>
                     </div>
                   </div>
@@ -641,7 +646,7 @@
         </div>
     </main>
 
-    <section id="students" class="students">
+    <section id="students" class="students wow fadeInUp">
       <div class="container-xxl">
         <div class="row">
           <h2 class="lang" key="students">Наши студенты</h2>
@@ -702,7 +707,7 @@
       </div>
     </section>
 
-    <footer id="footer">
+    <footer id="footer" class="wow fadeInDown">
       <div class="container-xxl">
         <div class="row">
           <div class="col-2"></div>
@@ -720,12 +725,15 @@
             <div class="clear"></div>
 
             <div class="tel-group mx-auto">
-              <span class="mx-auto">+998 99 690 60 60</span>
-              <span class="mx-auto">+998 99 390 60 60</span>
-              <span class="mx-auto">+998 95 340 60 60</span>
+              <span class="mx-auto wow pulse">+998 99 690 60 60</span>
+              <span class="mx-auto wow pulse">+998 99 390 60 60</span>
+              <span class="mx-auto wow pulse">+998 95 340 60 60</span>
+              <span class="mx-auto wow pulse">+998 99 644 60 60</span>
+              <span class="mx-auto wow pulse">+998 99 655 60 60</span>
             </div>
             <div class="clear"></div>
-            <p class="address lang" key="address">Улица Нукус 29А, Ташкент, Узбекистан</p>
+            <a href="https://goo.gl/maps/ynQBCmqtBBxuAPot5" class="btn"><p class="address lang" key="address">Улица Нукус 29А, Ташкент, Узбекистан</p></a>
+            
 
           </div>
         </div>
@@ -733,7 +741,7 @@
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>t
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
 </body>
