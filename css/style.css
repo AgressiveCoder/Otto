@@ -410,13 +410,13 @@ main .col-12 .border{
     .slogan {
         width: 90%;
         margin: 10rem 0 4rem 0;
-        padding: 0.01rem;
+        padding: 0.01rem 0 0.2rem 0;
     }
 
     .slogan h2 {
         margin-left: 1.2rem;
-        font-size: 2rem;
-        line-height: 4.5rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
         margin-bottom: 0.1rem;
     }
 
